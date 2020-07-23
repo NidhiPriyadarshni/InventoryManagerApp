@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:background="#d3d3d3">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/picode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Productcode"
+                    android:textAlignment="viewStart"
+                    android:textColor="#1C2867"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/piname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ProductName"
+                    android:textAlignment="viewStart"
+                    android:textColor="#1C2867"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/picategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ProductCategory"
+                    android:textAlignment="viewStart"
+                    android:textColor="#1C2867"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/piquantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Qty: "
+                    android:textAlignment="viewStart"
+                    android:textColor="#0D31ED"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/piprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:textAlignment="viewStart"
+                    android:textColor="#0D31ED"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/pidiscount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Disc%: "
+                    android:textAlignment="viewStart"
+                    android:textColor="#0D31ED"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/piexpirydate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exp on: "
+                    android:textAlignment="viewStart"
+                    android:textColor="#0D31ED"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/delete"
+                android:id="@+id/delete"/>
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

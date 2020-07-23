@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    tools:context=".User">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uproduct"
+            android:text="@string/pg2addproduct"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pg2addcategory"
+            android:id="@+id/ucategory"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ustock"
+            android:text="@string/pg2viewosp"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uexpired"
+            android:text="@string/pg2viewexpp"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pg2cleanexpp"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usales"
+            android:text="@string/pg2Sale"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/umakesales"
+            android:text="@string/pg2makesales"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usalesreturn"
+            android:text="@string/pg2saler"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

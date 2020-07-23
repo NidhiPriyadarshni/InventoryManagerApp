@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">InventoryManagerApp</string>
+    <string name="pg1title1">ADMIN</string>
+    <string name="pg1title2">OWNER</string>
+    <string name="pg1e1hint">Username</string>
+    <string name="pg1e2hint">Password</string>
+    <string name="pg1login">LOGIN</string>
+    <string name="pg1signup">SIGN UP</string>
+    <string name="pg2addproduct">Add Or Delete Product</string>
+    <string name="pg2addcategory">Add Or Delete Category</string>
+    <string name="pg2viewosp">View Out Of Stock Product</string>
+    <string name="pg2viewexpp">View Expired Product</string>
+    <string name="pg2cleanexpp">Clean Expired Product</string>
+    <string name="pg2Sale">Sales History</string>
+    <string name="pg2makesales">Make Sales</string>
+    <string name="pg2saler">SalesReturn</string>
+    <string name="pg3viewpro">View All Products</string>
+    <string name="pg3viewcat">View All Product,s Category</string>
+    <string name="pg3viewsup">View All Product,s Supplier</string>
+    <string name="pg3proprice">Product Pricing</string>
+    <string name="pg3porinv">Purchase Invoice</string>
+    <string name="pg3addsup">Add Or Delete Supplier</string>
+    <string name="pg3saleshis">View Sales History</string>
+    <string name="pg3viewadm">View All Admin</string>
+    <string name="plheading">Available Products</string>
+    <string name="clheading">Available Categories</string>
+    <string name="slheading">Successful Sales</string>
+    <string name="alheading">Admins</string>
+    <string name="sheading">Available Suppliers</string>
+    <string name="add">Add new product.</string>
+    <string name="cadd">Add new category.</string>
+    <string name="ssadd">Add new supplier.</string>
+    <string name="sadd">Add new sales.</string>
+    <string name="aadd">Add new admin.</string>
+    <string name="addpheading">Product,s Detail</string>
+    <string name="addpid">Barcode :</string>
+    <string name="addpname">Product name :</string>
+    <string name="addpcategory">Category :</string>
+    <string name="addpqty">Quantity :</string>
+    <string name="addpdate">Expiry date :</string>
+    <string name="addpprice">Price :</string>
+    <string name="addpdisc">Discount% :</string>
+    <string name="pdsave">Save</string>
+    <string name="pddiscard">Discard</string>
+
+    <string name="cdsave">Save</string>
+    <string name="cdcname">Enter Category name</string>
+    <string name="cddiscard">Discard</string>
+
+
+</resources>

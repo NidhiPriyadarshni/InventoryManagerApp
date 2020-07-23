@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:background="#d3d3d3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/msab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="5dp"
+                app:fabSize="mini"
+                android:contentDescription="@string/add"
+                android:src="@drawable/addd"
+                app:rippleColor="#6E1E39" />
+            <ImageView
+                android:id="@+id/msabm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="5dp"
+                app:fabSize="mini"
+                android:contentDescription="@string/add"
+                android:src="@drawable/minus"
+                app:rippleColor="#6E1E39" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/piname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ProductName"
+                android:textAlignment="viewStart"
+                android:textColor="#1C2867"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/picategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ProductCategory"
+                android:textAlignment="viewStart"
+                android:textColor="#1C2867"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/piquantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qty: "
+                android:textAlignment="viewStart"
+                android:textColor="#0D31ED"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/piprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: "
+                android:textAlignment="viewStart"
+                android:textColor="#0D31ED"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/pidiscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disc%: "
+                android:textAlignment="viewStart"
+                android:textColor="#0D31ED"
+                android:textSize="15dp" />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/delete"
+            android:id="@+id/delete"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

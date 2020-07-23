@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:background="#d3d3d3"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode"
+            android:text="Category id: "
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cname"
+            android:text="Name"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/delete"
+        android:id="@+id/cdelete"/>
+
+</LinearLayout>
